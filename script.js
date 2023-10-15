@@ -1,4 +1,3 @@
-// Reemplaza 'tu-usuario-de-github' con tu nombre de usuario de GitHub
 const githubUser = 'vxnzala1';
 
 fetch(`https://api.github.com/users/${githubUser}/repos`)
