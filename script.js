@@ -1,6 +1,6 @@
 const githubUser = 'vxnzala1';
 
-fetch(`https://api.github.com/users/${githubUser}/repos`)
+/*fetch(`https://api.github.com/users/${githubUser}/repos`)
   .then(response => response.json())
   .then(data => {
     let repos = "<ul>";
@@ -11,3 +11,4 @@ fetch(`https://api.github.com/users/${githubUser}/repos`)
     document.getElementById("repos").innerHTML = repos;
   })
   .catch(error => console.error('Error al obtener repositorios:', error));
+*/
