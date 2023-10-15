@@ -36,11 +36,14 @@ body.dark-mode {
 }
 
 .navbar {
-    background-color: #1a3b5d;
+    background-color: #1a3b5d; /* Color predeterminado igual al footer */
 }
 
 
-body.dark-mode .navbar,
+body.dark-mode .navbar {
+    background-color: #333; /* Color en modo oscuro igual al footer */
+}
+
 body.dark-mode .footer {
     background-color: #333;
 }
@@ -57,6 +60,17 @@ body.dark-mode .btn-primary {
 
 #darkModeToggle {
     border: 2px solid white;
+}
+
+body.dark-mode #darkModeToggle {
+    background-color: #e0e0e0;
+    color: #121212;
+    border-color: #121212;
+}
+
+#darkModeToggle {
+    border: 2px solid #1a3b5d; /* Borde azul oscuro en modo claro */
+    color: #1a3b5d; /* Texto azul oscuro en modo claro */
 }
 
 body.dark-mode #darkModeToggle {
