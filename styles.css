@@ -1,8 +1,19 @@
-
 .footer {
     position: absolute;
     bottom: 0;
     width: 100%;
     text-align: center;
     padding: 1em;
+    background-color: #343a40;
+}
+
+/* Estilo para los cards de los repositorios */
+.card {
+    margin: 1em;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }

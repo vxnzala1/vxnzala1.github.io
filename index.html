@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Antonio Venzalá Serrano</title>
@@ -8,26 +9,29 @@
     <!-- Incluyendo tu propio archivo CSS -->
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
 
     <!-- Navegación -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#">Venzalá's Pages</a>
-      <!-- ... más código para la barra de navegación -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Venzalá's Pages</a>
+        <!-- ... más código para la barra de navegación -->
     </nav>
 
     <!-- Contenido Principal -->
     <div class="container mt-5">
-        <h1>Bienvenido a mi index</h1>
-        <p>Esta es una demostración.</p>
-        <!-- ... más contenido ... -->
-        <h2>Mis Repositorios de GitHub</h2>
-        <div id="repos"></div>
+        <h1 class="display-4">Bienvenido a mi index</h1>
+        <p class="lead">Aquí encontrarás los repositorios que he ido haciendo durante el tiempo que llevo programando</p>
+        <p>Si quieres ver mi página web, haz click <a href="https://vxnzala1.github.io/" class="btn btn-primary">aquí</a></p>
+        
+        <!-- Contenedor de los repositorios -->
+        <h2 class="mt-5">Mis Repositorios de GitHub</h2>
+        <div id="repos" class="row"></div> <!-- Utilizaremos una estructura de filas y columnas para los repositorios -->
     </div>
 
     <!-- Pie de Página -->
-    <footer class="footer bg-light">
-      <p>Todos los derechos reservados, 2023 Venzalá</p>
+    <footer class="footer bg-dark text-white">
+        <p>Todos los derechos reservados, 2023 Venzalá</p>
     </footer>
 
     <!-- Incluyendo jQuery y Bootstrap JS -->
@@ -36,4 +40,5 @@
     <!-- Incluyendo tu propio archivo JS -->
     <script src="script.js"></script>
 </body>
+
 </html>
