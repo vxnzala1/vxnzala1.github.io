@@ -13,19 +13,23 @@
 <body>
 
     <!-- Navegación -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="#">Venzalá's Pages</a>
-        <!-- ... más código para la barra de navegación -->
+        <!-- (Puedes agregar aquí opciones de menú si lo deseas) -->
     </nav>
+    
 
     <!-- Contenido Principal -->
     <div class="container mt-5">
-        <h1 class="display-4">Bienvenido a mi index</h1>
-        <p class="lead">Aquí encontrarás los repositorios que he ido haciendo durante el tiempo que llevo programando</p>
-        <p>Si quieres ver mi perfil, haz click <a href="https://github.com/vxnzala1/" class="btn btn-primary">aquí</a></p>
+        <h1 class="display-4 text-center">Bienvenido a mi index</h1>
+        <p class="lead text-center">Aquí encontrarás los repositorios que he hecho durante mi tiempo programando</p>
+        <div class="text-center">
+            <a href="https://github.com/vxnzala1/" class="btn btn-outline-primary">Ver mi perfil en GitHub</a>
+        </div>
+        
         
         <!-- Contenedor de los repositorios -->
-        <h2 class="mt-5">Mis Repositorios de GitHub</h2>
+        <h2 class="mt-5 text-center">Mis Repositorios de GitHub</h2>
         <div id="repos" class="row">
             
             <!-- Repositorio en forma de card -->
@@ -103,10 +107,13 @@
         </div>
     </div>
 
+    
     <!-- Pie de Página -->
-    <footer class="footer bg-dark text-white">
-        <p>Todos los derechos reservados, 2023 Venzalá</p>
-    </footer>
+    <footer class="footer bg-dark text-white mt-5">
+        <div class="container">
+            <p class="mb-0">Todos los derechos reservados, 2023 Venzalá</p>
+        </div>
+    </footer>    
 
     <!-- Incluyendo jQuery y Bootstrap JS -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
