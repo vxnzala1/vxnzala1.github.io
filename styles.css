@@ -35,6 +35,11 @@ body.dark-mode {
     color: #e0e0e0;
 }
 
+.navbar {
+    background-color: #1a3b5d;
+}
+
+
 body.dark-mode .navbar,
 body.dark-mode .footer {
     background-color: #333;
@@ -48,4 +53,14 @@ body.dark-mode .card {
 body.dark-mode .btn-primary {
     background-color: #555;
     border-color: #555;
+}
+
+#darkModeToggle {
+    border: 2px solid white;
+}
+
+body.dark-mode #darkModeToggle {
+    background-color: #e0e0e0;
+    color: #121212;
+    border-color: #121212;
 }
